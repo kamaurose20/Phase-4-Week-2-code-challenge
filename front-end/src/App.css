@@ -1,0 +1,216 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Restaurant List Styles */
+.restaurant-list {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.restaurant {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.restaurant:hover {
+  transform: scale(1.05);
+}
+
+.restaurant h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.restaurant a {
+  display: block;
+  padding: 10px;
+  background-color: #5c76cc;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.restaurant a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+
+
+/* Restaurant Detail Styles */
+.restaurant-detail {
+  background-color: #f59870;
+  margin: 20px ;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.restaurant-detail p {
+  margin-bottom: 15px;
+}
+
+.restaurant-detail h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.restaurant-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.restaurant-detail li {
+  margin-bottom: 15px;
+}
+
+/* Pizza List Styles */
+.pizza-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.pizza-list-header {
+  width: 100%;
+  margin-bottom: 20px;}
+
+.pizza-card {
+  flex-basis: calc(25% - 20px);
+  margin-bottom: 20px;
+  margin: 10px;
+}
+
+.pizza-para {
+  font-style: italic;
+}
+
+.card {
+  background-color: #250e79;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 0;
+}
+
+/* Create Restaurant Pizza Form Styles */
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 200px;
+}
+.form-header {
+  width: 100%;
+  margin-bottom: 20px;}
+
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin-bottom: 10px;
+}
+
+.form-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: #0d8ee4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #555;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #4c6edf;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #555;
+}
+
